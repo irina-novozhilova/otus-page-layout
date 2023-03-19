@@ -1,0 +1,15 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
