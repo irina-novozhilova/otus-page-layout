@@ -1,15 +1,174 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #535353;
 }
 
 .main-menu {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu__link {
+  text-decoration: none;
+  color: #313131;
+  font-size: 14px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
+}
+
+.main-menu__link:hover {
+  border-bottom: 2px solid #c8030e;
+}
+
+.main-menu__link_active {
+  border-bottom: 2px solid #c8030e;
+}
+
+.logo {
+  margin-top: -5px;
+}
+
+.banner {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #535353;
+}
+
+.banner__text {
+  padding-left: 30px;
+}
+
+.banner__text p {
+  max-width: 440px;
+  color: #313131;
+}
+
+.h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.box {
+  display: flex;
+  padding: 20px 0;
+}
+
+.left-menu {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  min-width: 230px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.left-menu__link {
+  text-transform: uppercase;
+  color: #313131;
+  text-decoration: none;
+}
+
+.left-menu__link:hover {
+  color: #c8030e;
+}
+
+.left-menu__link_active {
+  color: #c8030e;
+}
+
+.h2 {
+  font-size: 36px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.regalia {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regalia__item {
+  border-left: 1px solid #535353;
+}
+
+.regalia__text {
+  padding: 10px 0 10px 20px;
+}
+
+.regalia__paragraph {
+  max-width: 200px;
+  color: #8b8b91;
+  font-size: 16px;
+}
+
+.h3 {
+  margin-bottom: 10px;
+}
+
+.about {
+  padding-right: 150px;
+}
+
+.about__paragraph {
+  margin-bottom: 20px;
+  color: #313131;
+  font-size: 14px;
+}
+
+.about__link-box {
+  margin-bottom: 30px;
+}
+
+.about__link {
+  text-decoration: none;
+  color: #313131;
+  font-size: 14px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #c8030e;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  color: #f2f2f2;
+}
+
+.footer__item {
+  width: 23%;
+}
+
+.footer__full {
+  background: #313131;
+  margin-top: 200px;
+}
+
+.tel {
+  text-transform: uppercase;
+}
+
+.contact {
+  margin-bottom: 10px;
 }
