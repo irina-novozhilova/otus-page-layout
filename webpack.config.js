@@ -6,7 +6,6 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = (env) => ({
   entry: {
     index: "./src/index.js",
-    localStorage: "./src/localStorage.js",
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -21,7 +20,7 @@ module.exports = (env) => ({
   devServer: {
     compress: true,
     port: 9000,
-    watchFiles: "*.html",
+    watchFiles: "./src/**/*",
   },
   module: {
     rules: [
